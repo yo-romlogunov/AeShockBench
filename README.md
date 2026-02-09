@@ -3,7 +3,7 @@ For After Effects
 ---------------------------
 
 Technical requirements:
-After Effects 23-25.x
+After Effects 23-26.x
 
 [!] Engish Language After Effects
 
@@ -42,16 +42,12 @@ Windows: Ctrl + Alt + 0
 
 ---------------------------
 
-Alternative Link Download: https://shorturl.at/aBCU3
-
 Send and View result: https://t.me/ShockBenchBot
 
 ---------------------------
 
 
 create bench @romlogunov - https://t.me/vtb_blog
-
-create Bot Telegram - [@Miswist](https://github.com/Miwist)
 
 special for @rozetked - https://www.youtube.com/@rozetked
 
