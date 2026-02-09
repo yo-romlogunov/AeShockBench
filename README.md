@@ -1,54 +1,81 @@
-# AE SHOCK BENCH
-For After Effects
----------------------------
+# AE SHOCK BENCH  
+Benchmark for Adobe After Effects
 
-Technical requirements:
-After Effects 23-26.x
+---
 
-[!] Engish Language After Effects
+## Requirements
 
-Windows 10/11
+- **Adobe After Effects:** 23–26.x  
+- **After Effects UI language:** English  
+- **OS:**  
+  - Windows 10 / 11  
+  - macOS 10.x+
 
-Mac OS 10.x
+---
 
-[EN] Please study the initial After Effects settings before starting rendering.
-To go to the settings instructions, click the "START BENCH" button in the After Effects preview window.
-Initial settings After Effects
-1) set minimum cache size: 80 GB
-2) Set the minimum value for the use of RAM for other applications in the "memory and performance" section
-3) Enable multi-frame rendering and minimum value for reserved for other applications
-4) in the project settings, select the GPU renderer suitable for your platform: Mac OS - OpenCL/Metal, Windows - OpenCL/CUDA
+## Before Rendering (Important)
 
-[RU]
-Пожалуйста, изучите первоначальные настройки After Effects перед началом старта рендеринга.
-Чтобы перейти в инструкцию настроек, нажмите кнопку "START BENCH" в окне предосмотра After Effects.
-1) установить минимальный размер кэша: 80 ГБ
-2) Установите минимальное значение для использования оперативной памяти для других приложений в разделе "Memory & Perfomance"
-3) Включить многокадровый рендеринг и минимальное значение для зарезервированного для других приложений
-4) в настройках проекта выберите рендеринг GPU, подходящий для вашей платформы: Mac OS - OpenCL/Metal, Windows - OpenCL/CUDA
+### EN
 
+Please configure After Effects **before** starting the benchmark.
 
-[EN] If the panel "Render Queue" is closed, 
-you can open the panel again 
-using a keyboard shortcut
+To open the setup instructions, click **“START BENCH”** in the After Effects preview window.
 
-[RU]
-если панель "Render Queue" скрыта, то для открытия используйте сочетание клавиш:
+**Required settings:**
 
+1. Set **Disk Cache** minimum size to **80 GB**
+2. In **Memory & Performance**, set the **minimum RAM reserved for other applications**
+3. Enable **Multi-Frame Rendering** and set the minimum RAM reserved for other apps
+4. In **Project Settings**, select the correct **GPU renderer**:
+   - macOS: **OpenCL / Metal**
+   - Windows: **OpenCL / CUDA**
 
-Mac OS: option + command + 0
+---
 
-Windows: Ctrl + Alt + 0
+### RU
 
----------------------------
+Перед запуском бенчмарка **обязательно** настройте After Effects.
 
-Send and View result: https://t.me/ShockBenchBot
+Чтобы открыть инструкцию, нажмите **«START BENCH»** в окне предпросмотра After Effects.
 
----------------------------
+**Необходимые настройки:**
 
+1. Установите минимальный размер **Disk Cache** — **80 ГБ**
+2. В разделе **Memory & Performance** задайте минимальное значение ОЗУ для других приложений
+3. Включите **Multi-Frame Rendering** и минимальное значение зарезервированной памяти
+4. В **Project Settings** выберите подходящий **GPU renderer**:
+   - macOS — **OpenCL / Metal**
+   - Windows — **OpenCL / CUDA**
 
-create bench @romlogunov - https://t.me/romlogunov_hub
+---
 
-special for @rozetked - https://www.youtube.com/@rozetked
+## Render Queue Panel
 
+### EN
 
+If the **Render Queue** panel is hidden, reopen it using the shortcut:
+
+### RU
+
+Если панель **Render Queue** скрыта, используйте сочетание клавиш:
+
+- **macOS:** `Option + Command + 0`
+- **Windows:** `Ctrl + Alt + 0`
+
+---
+
+## Results
+
+- Submit and view results:  
+  https://t.me/ShockBenchBot
+
+- Official website:  
+  https://shockbench.ru
+
+---
+
+## Credits
+
+Created for **Rozetked**  
+Bench creation: **@romlogunov**  
+https://t.me/romlogunov_hub
