@@ -47,7 +47,7 @@ Send and View result: https://t.me/ShockBenchBot
 ---------------------------
 
 
-create bench @romlogunov - https://t.me/vtb_blog
+create bench @romlogunov - https://t.me/romlogunov_hub
 
 special for @rozetked - https://www.youtube.com/@rozetked
 
